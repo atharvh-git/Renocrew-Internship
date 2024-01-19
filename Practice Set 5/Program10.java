@@ -1,21 +1,28 @@
-// Write a java program to sum first n even numbers using for loop.
+// Two numbers are entered through the keyboard. Write a program to find the value of 
+// one number raised to the power of another. (Do not use Java built-in method)
 
 import java.util.Scanner;
 
-public class Program10 {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the value of n: ");
-        int n = scan.nextInt();
+public class Program10
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+     
+        int base;
+        int power;
+        int result = 1;
+        
+        System.out.print("Enter the base number: ");
+        base = sc.nextInt();
+        
+        System.out.print("Enter the power ");
+        power = sc.nextInt();
 
-        int sum = 0;
-        for (int i = 1; i <= n; i++) {
-            // Calculate even number
-            int evenNum = 2 * i;
-            // Add evenNumber to sum
-            sum = sum + evenNum;
+        for(int i = 1; i <= power; i++)
+        {
+	    result *= base;
         }
-
-        System.out.println("Sum of first " + n + " even numbers is: " + sum);
+        System.out.println("Result: "+ result);
     }
 }
