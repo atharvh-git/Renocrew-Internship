@@ -1,4 +1,4 @@
-// Write a java program to find maximum element in an array.
+// Write a java program to find minimum element in an array.
 
 public class Program7 {
     public static void main(String[] args) {
