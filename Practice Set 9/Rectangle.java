@@ -1,4 +1,4 @@
-// Overload a constructor used to initialize a rectangle of length 4 and breadth 5 for  using custom parameters.
+// Overload a constructor used to initialize a rectangle of length 4 and breadth 5 for using custom parameters.
 
 public class Rectangle {
     private int length;
