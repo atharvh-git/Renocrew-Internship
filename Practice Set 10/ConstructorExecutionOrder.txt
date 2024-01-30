@@ -1,0 +1,10 @@
+  What is the order of constructor execution for the following inheritace hierarchy:
+  Base
+  Derived 1
+  Derived 2
+
+  Derived2 obj = new Derived2();
+  which constructor(s) will be executed and in what order?
+
+  Answer is:
+  First Base constructor will be executed and after that Derived1 and Derived2 constructors will get executed.
