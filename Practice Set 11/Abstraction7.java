@@ -40,7 +40,6 @@ class TV implements TVRemote {
     }
 }
 
-// Example usage
 public class Abstraction7 {
     public static void main(String[] args) {
         TV myTV = new TV();
