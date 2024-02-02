@@ -11,7 +11,6 @@ public class Square extends Rectangle {
         return 0.0;
     }
 
-    @Override
     public double calcSurfaceArea() {
         return super.getLength() * super.getLength() ;
     }
