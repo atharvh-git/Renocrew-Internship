@@ -39,7 +39,7 @@ class MyLibrary {
     }
 
     public void IssueBook(MyBook book, String issuedTo) {
-        System.out.println("The book " + book +  "has been issued from the library to " + issuedTo + ".");
+        System.out.println("The book has been issued from the library to " + issuedTo + ".");
         this.books.remove(book);
     }
 
