@@ -1,3 +1,6 @@
+// Create a set in Java and Try to store duplicate elements 
+// inside this set and verify that only one instance is stored.
+
 import java.util.HashSet;
 
 public class HashSet1 {
